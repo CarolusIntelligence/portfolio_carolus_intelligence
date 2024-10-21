@@ -22,28 +22,28 @@ body{
     color: white;
 }
 
-header{
-    margin-top: 20px;
-    position: fixed;
+header {
+    position: relative; /* Remet le header en position relative par défaut */
     top: 0;
     left: 0;
     width: 100%;
     padding: 1rem 9%;
     background-color: transparent;
-    filter: drop-shadow(10px);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
 
-.logo{
+.logo {
     font-size: 3rem;
     color: #8c52ff;
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
 }
+
+
 
 .logo:hover{
     transform: scale(1.1);
