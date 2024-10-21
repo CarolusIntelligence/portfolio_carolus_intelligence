@@ -27,9 +27,47 @@
                 <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Lorem tincidunt finibus pharetra, sem mattis imperdiet lectus. Pharetra vel semper enim finibus hac nascetur eros ipsum. Metus donec aliquam vehicula cursus inceptos suspendisse venenatis magnis inceptos. Purus fermentum ad feugiat, rutrum velit pharetra senectus. Eleifend ipsum vestibulum natoque lacinia ultrices vitae. Laoreet venenatis eros curabitur sit potenti himenaeos. Ut tempor morbi nunc morbi ut odio potenti. Lectus erat ipsum penatibus laoreet aliquet enim habitant.</p>
             </div>
             <div class="images-div">
+                <div class="container">
+                    <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                        <img src="logo.png" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                        <img src="logo2.png" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                        <img src="logo_ci_final.png" style="width:100%">
+                    </div>
+                
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                    <!-- Image text -->
+                    <div class="caption-container">
+                    <p id="caption"></p>
+                    </div>
+                
+                    <!-- Thumbnail images -->
+                    <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="logo.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="logo2.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="logo_ci_final.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                    </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>    
-    
+    <script src="../../scripts/photos.js"></script>
 </body>
 </html>
