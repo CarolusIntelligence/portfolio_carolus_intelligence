@@ -127,20 +127,22 @@ span{
 }
 
 .home-content p{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 .home-img{
     border-radius: 50%;
 }
 
-.home-img img{
+.home-img img {
     position: relative;
     width: 32vw;
+    height: auto; 
     border-radius: 50%;
     box-shadow: 0 0 25px solid #00a99d;
     cursor: pointer;
     transition: 0.2s linear;
+    max-width: 32vh; 
 }
 
 .home-img img:hover{
