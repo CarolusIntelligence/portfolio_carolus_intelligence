@@ -49,60 +49,10 @@ header {
 .logo:hover{
     transform: scale(1.1);
 }
-
-nav a{
-    font-size: 1.8rem;
-    color: white;
-    margin-left: 4rem;
-    font-weight: 500;
-    transition: 0.3s ease;
-    border-bottom: 3px solid transparent;
-}
-
-nav a:hover,
-nav a.active{
-    color: #00a99d;
-    border-bottom: 3px solid #00a99d;
-}
-
-@media(max-width:995px){
-    nav{
-        position: absolute;
-        display: none;
-        top: 0;
-        right: 0;
-        width: 40%;
-        border-left: 3px solid #00a99d;
-        border-bottom: 3px solid #00a99d;
-        border-bottom-left-radius: 2rem;
-        padding: 1rem solid;
-        background-color: #161616;
-        border-top: 0.1rem solid rgba(0,0,0,0.1);
-    }
-
-    nav.active{
-        display: block;
-    }
-
-    nav a{
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-    }
-
-    nav a:hover,
-    nav a.active{
-        padding: 1rem;
-        border-radius: 0.5rem;
-        border-bottom: 0.5rem solid #00a99d;
-    }
-}
-
 section{
     min-height: 100vh;
     padding: 1rem 9% 1rem;
 }
-
 .home{
     display: flex;
     justify-content: center;
@@ -110,31 +60,25 @@ section{
     gap: 8rem;
     background-color: black;
 }
-
 .home .home-content h1{
     font-size: 4rem;
     font-weight: 700;
     line-height: 1.3;
 }
-
 span{
     color: #00a99d;
 }
-
 .home-content h3{
     font-size: 3rem;
     margin-bottom: 1rem;
     font-weight: 700;
 }
-
 .home-content p{
     font-size: 1.5rem;
 }
-
 .home-img{
     border-radius: 50%;
 }
-
 .home-img img {
     position: relative;
     width: 32vw;
@@ -145,12 +89,10 @@ span{
     transition: 0.2s linear;
     max-width: 32vh; 
 }
-
 .home-img img:hover{
     font-size: 1.8rem;
     font-weight: 500;
 }
-
 .social-icons a{
     display: inline-flex;
     justify-content: center;
@@ -165,14 +107,12 @@ span{
     transition: 0.3s ease;
     color: #00a99d;
 }
-
 .social-icons a:hover{
     color: black;
     transform: scale(1.3) translateY(-5px);
     background-color: #00a99d;
     box-shadow: 0  0 25px #00a99d;
 }
-
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
@@ -186,30 +126,25 @@ span{
     transition: 0.3s ease;
     cursor: pointer;
 }
-
 .btn:hover{
     transform: scale3d(1.03);
     background-color: #00a99d;
     color: black;
     box-shadow: 0 0 25px #00a99d;
 }
-
 .typing-text{
     font-size: 34px;
     font-weight: 600;
     min-width: 280px;
 }
-
 .typing-text span{
     position: relative;
 }
-
 .typing-text span::before{
     content: "Data Scientist & Analyst";
     color: #8c52ff;
     animation: words 10s infinite;
 }
-
 .typing-text span::after{
     content: "";
     background-color: black;
@@ -220,13 +155,11 @@ span{
     right: -8;
     animation: cursor 0.6s infinite;
 }
-
 @keyframes cursor{
     to{
         border-left: 3px solid #f4d03f;
     }
 }
-
 @keyframes words{
     0%, 24%{
         content: "Data Analyst";
@@ -241,14 +174,11 @@ span{
         content: "Analyste d'affaires";
     }
 }
-
 @media (max-width: 1000px){
     .home{
         gap: 4rem;
     }
 }
-
-
 @media(max-width:995px){
     .home{
         flex-direction: column;
@@ -276,10 +206,6 @@ span{
 
 
 
-
-
-
-
 .section-preview {
     display: flex;
     justify-content: space-between;
@@ -289,61 +215,50 @@ span{
     padding: 20px;
     border-radius: 8px;
     background-color: black;
-    flex-direction: row; /* Default layout for larger screens */
+    flex-direction: row; 
 }
-
 .section-preview:hover {
     background-color: rgba(46, 64, 83, 0.4);
     cursor: pointer;
 }
-
 .section-preview-content {
     max-width: 60%;
 }
-
 .section-preview img {
     max-width: 100px;
 }
-
 .section-preview-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .section-preview-title h2 {
     margin: 0;
     font-size: 4em;
     color: #8c52ff;
 }
-
 .section-preview p {
     margin: 10px 0;
     font-size: 2em;
     color: #00a99d;
 }
-
 @media screen and (max-width: 768px) {
     .section-preview {
         flex-direction: column;
         align-items: center;
     }
-
     .section-preview img {
         max-width: 50%;
         margin-bottom: 10px;
         margin-top: 10px;
     }
-
     .section-preview-content {
         max-width: 100%; 
         text-align: center;
     }
-
     .section-preview-title h2 {
         font-size: 2.5em; 
     }
-
     .section-preview p {
         font-size: 1.5em; 
         text-align: justify;
