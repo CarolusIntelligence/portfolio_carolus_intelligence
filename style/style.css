@@ -225,7 +225,7 @@ span{
     max-width: 60%;
 }
 .section-preview img {
-    max-width: 100px;
+    max-width: 10%;
 }
 .section-preview-title {
     display: flex;
