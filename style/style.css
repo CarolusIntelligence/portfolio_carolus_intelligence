@@ -330,8 +330,9 @@ span{
     }
 
     .section-preview img {
-        max-width: 150px;
-        margin-bottom: 20px;
+        max-width: 50%;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     .section-preview-content {
@@ -345,5 +346,6 @@ span{
 
     .section-preview p {
         font-size: 1.5em; 
+        text-align: justify;
     }
 }
