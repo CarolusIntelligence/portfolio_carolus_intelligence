@@ -295,7 +295,7 @@ img {
     margin-top: 1em;
     margin-bottom: 1rem;
     font-weight: 700;
-    color: #00a99d; 
+    color: #8c52ff; 
 }
 .text-div {
     font-size: 3em;
@@ -336,7 +336,7 @@ img {
     padding: 2px 16px;
     margin-bottom: 0.5em;
     color: #00a99d;
-    font-size: 3em;;
+    font-size: 3em;
 }
 .row:after {
     content: "";
@@ -373,6 +373,16 @@ img {
 .logo_article:hover {
     transform: scale(1.1);
 }
+.en_avant {
+    color: #00a99d;
+}
+.techno-div {
+    font-size: 2.5rem;
+    margin-top: 1em;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #f4d03f; 
+}
 
 
 
@@ -404,7 +414,14 @@ img {
         margin-top: 1em;
         margin-bottom: 1rem;
         font-weight: 700;
-        color: #00a99d; 
+        color: #8c52ff; 
+    }
+    .techno-div {
+        font-size: 1.4rem;
+        margin-top: 1em;
+        margin-bottom: 1rem;
+        font-weight: 700;
+        color: #f4d03f; 
     }
     .text-div {
         font-size: 2.3em;
