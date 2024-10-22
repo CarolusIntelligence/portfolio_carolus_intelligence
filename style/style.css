@@ -87,7 +87,7 @@ span{
     box-shadow: 0 0 25px solid #00a99d;
     cursor: pointer;
     transition: 0.2s linear;
-    max-width: 32vh; 
+    max-width: 32vw; 
 }
 .home-img img:hover{
     font-size: 1.8rem;
