@@ -9,32 +9,28 @@
     outline: none;
     font-family: 'Poppins', sans-serif;
 }
-
 html, body {
     font-size: 62.5%;
     overflow-x: hidden;
     width: 100%;
     height: 100%;
 }
-
 body {
     background-color: black;
     color: white;
 }
-
 header {
     position: relative; 
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 5vw; /* Padding réduit pour éviter les débordements */
+    padding: 1rem 5vw; 
     background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
-
 .logo {
     font-size: 5rem;
     color: #8c52ff;
@@ -43,50 +39,45 @@ header {
     transition: 0.5s ease;
     margin-top: 20px;
 }
-
 .logo:hover {
     transform: scale(1.1);
 }
-
 section {
     min-height: 100vh;
-    padding: 1rem 5vw; /* Padding latéral ajusté */
+    padding: 1rem 5vw; 
 }
-
 .home {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8rem;
     background-color: black;
-    max-width: 100vw; /* Limitation de la largeur */
+    max-width: 100vw; 
     overflow-x: hidden;
 }
-
 .home .home-content h1 {
     font-size: 5rem;
     font-weight: 700;
     line-height: 1.3;
 }
-
 span {
     color: #00a99d;
 }
-
+#pitch {
+    font-size: 3em;
+    color: #00a99d;
+}
 .home-content h3 {
     font-size: 4rem;
     margin-bottom: 1rem;
     font-weight: 700;
 }
-
 .home-content p {
     font-size: 1.6rem;
 }
-
 .home-img {
     border-radius: 50%;
 }
-
 .home-img img {
     position: relative;
     width: 32vw;
@@ -97,17 +88,14 @@ span {
     transition: 0.2s linear;
     max-width: 32vh;
 }
-
 img {
-    max-width: 100%; /* Assurez-vous que toutes les images ne dépassent pas 100% */
+    max-width: 100%; 
     height: auto;
 }
-
 .home-img img:hover {
     font-size: 1.8rem;
     font-weight: 500;
 }
-
 .social-icons a {
     display: inline-flex;
     justify-content: center;
@@ -122,14 +110,12 @@ img {
     transition: 0.3s ease;
     color: #00a99d;
 }
-
 .social-icons a:hover {
     color: black;
     transform: scale(1.3) translateY(-5px);
     background-color: #00a99d;
     box-shadow: 0 0 25px #00a99d;
 }
-
 .btn {
     display: inline-block;
     padding: 1rem 2.8rem;
@@ -143,30 +129,25 @@ img {
     transition: 0.3s ease;
     cursor: pointer;
 }
-
 .btn:hover {
     transform: scale3d(1.03);
     background-color: #00a99d;
     color: black;
     box-shadow: 0 0 25px #00a99d;
 }
-
 .typing-text {
     font-size: 34px;
     font-weight: 600;
     min-width: 280px;
 }
-
 .typing-text span {
     position: relative;
 }
-
 .typing-text span::before {
     content: "Data Scientist & Analyst";
     color: #8c52ff;
     animation: words 10s infinite;
 }
-
 .typing-text span::after {
     content: "";
     background-color: black;
@@ -177,13 +158,11 @@ img {
     right: -8;
     animation: cursor 0.6s infinite;
 }
-
 @keyframes cursor {
     to {
         border-left: 3px solid #f4d03f;
     }
 }
-
 @keyframes words {
     0%, 32% {
         content: "data analyst 🧮";
@@ -195,13 +174,11 @@ img {
         content: "consultant BI 📈";
     }
 }
-
 @media (max-width: 1000px) {
     .home {
         gap: 4rem;
     }
 }
-
 @media (max-width: 995px) {
     .home {
         flex-direction: column;
