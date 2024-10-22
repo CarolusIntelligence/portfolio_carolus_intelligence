@@ -281,8 +281,8 @@ img {
     padding: 10px;
 }
 .back-button img {
-    width: 75px; 
-    height: 75px;
+    width: 60px; 
+    height: 60px;
 }
 .resume {
     display: flex;
@@ -290,7 +290,7 @@ img {
     padding: 20px;
 }
 .main-div {
-    width: 96%;
+    width: 98%;
     box-sizing: border-box;
 }
 .title-div {
@@ -302,7 +302,7 @@ img {
     color: #00a99d; 
 }
 .text-div {
-    font-size: 2em;
+    font-size: 3em;
     text-align: justify;
     margin-bottom: 20px;
 }
