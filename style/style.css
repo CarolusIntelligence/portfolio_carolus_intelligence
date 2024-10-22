@@ -279,6 +279,7 @@ img {
     border: none;
     cursor: pointer;
     padding: 10px;
+    margin-left: auto; /* Place le bouton tout à droite */
 }
 .back-button img {
     width: 60px; 
@@ -288,6 +289,7 @@ img {
     display: flex;
     justify-content: center; 
     padding: 20px;
+    position: relative; /* Si vous utilisez un positionnement absolu */
 }
 .main-div {
     width: 98%;
