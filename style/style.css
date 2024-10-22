@@ -305,7 +305,7 @@ img {
     width: 100%; 
 }
 .images-div img {
-    max-width: 600px;
+    max-width: 800px;
     height: auto;
 }
 * {
@@ -313,8 +313,8 @@ img {
 }
 .container {
     position: relative;
-    width: 50%; 
-    max-width: 600px;
+    width: 100%; 
+    max-width: 800px;
     margin: 0 auto;
     margin-top: 3em;
     border-radius: 2em;
