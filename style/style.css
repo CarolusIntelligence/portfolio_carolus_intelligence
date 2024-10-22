@@ -284,10 +284,16 @@ img {
 }
 .resume {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
     padding: 20px;
     position: relative;
+    width: 80%;
+    margin: 0 auto; 
+    text-align: center; 
 }
+
 .main-div {
     width: 98%;
     box-sizing: border-box;
@@ -329,25 +335,6 @@ img {
 }
 .cursor {
     cursor: pointer;
-}
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: #f4d03f;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-}
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
 }
 .prev:hover,
 .next:hover {
@@ -419,7 +406,7 @@ img {
         color: #00a99d; 
     }
     .text-div {
-        font-size: 2.2em;
+        font-size: 2.3em;
         text-align: justify;
         margin-bottom: 20px;
     }
@@ -449,6 +436,17 @@ img {
         cursor: pointer;
         padding: 10px;
         margin-left: auto; 
+    }
+    .resume {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+        padding: 20px;
+        position: relative;
+        width: 98%;
+        margin: 0 auto; 
+        text-align: center; 
     }
 }
 
