@@ -180,21 +180,18 @@ span{
     .home{
         flex-direction: column;
     }
-
     .home .home-content h3{
         font-size: 2.5rem;
     }
-
     .home-content h1{
-        font-size: rem;
+        font-size: 3rem;
     }
-
     .home-img img{
         width: 70vw;
         margin-top: 1rem;
     }
     .logo {
-        font-size: 3rem;
+        font-size: 2.5rem;
         color: #8c52ff;
         font-weight: 800;
         cursor: pointer;
@@ -403,7 +400,7 @@ span{
         font-size: 2.5em; 
     }
     .section-preview p {
-        font-size: 1.5em; 
+        font-size: 1.8em; 
         text-align: justify;
     }
     .title-div {
