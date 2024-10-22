@@ -303,7 +303,6 @@ img {
     display: flex;
     gap: 10px;
     width: 100%; 
-    background-color: green;
 }
 .images-div img {
     max-width: 600px;
@@ -318,7 +317,6 @@ img {
     max-width: 600px;
     margin: 0 auto;
     margin-top: 3em;
-    background-color: red;
 }
 .mySlides {
     display: none;
