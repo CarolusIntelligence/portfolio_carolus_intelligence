@@ -213,7 +213,7 @@ img {
         font-weight: 700;
     }
     .home-content p {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 }
 
@@ -276,17 +276,17 @@ img {
     border: none;
     cursor: pointer;
     padding: 10px;
-    margin-left: auto; /* Place le bouton tout à droite */
+    margin-left: auto; 
 }
 .back-button img {
-    width: 60px; 
-    height: 60px;
+    width: 50px; 
+    height: 50px;
 }
 .resume {
     display: flex;
     justify-content: center; 
     padding: 20px;
-    position: relative; /* Si vous utilisez un positionnement absolu */
+    position: relative;
 }
 .main-div {
     width: 98%;
@@ -419,7 +419,7 @@ img {
         color: #00a99d; 
     }
     .text-div {
-        font-size: 2em;
+        font-size: 2.2em;
         text-align: justify;
         margin-bottom: 20px;
     }
