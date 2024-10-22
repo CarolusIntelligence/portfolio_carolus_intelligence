@@ -361,12 +361,20 @@ span{
     display: table;
     clear: both;
 }
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 .column {
-    float: left;
-    width: 16.66%;
+    flex: 0 1 16.66%;
+    display: flex;
+    justify-content: center;
 }
 .demo {
     opacity: 0.4;
+    max-width: 100%; 
+    height: auto;
 }
 .active,
 .demo:hover {
