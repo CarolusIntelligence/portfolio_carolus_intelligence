@@ -165,10 +165,10 @@ img {
 }
 @keyframes words {
     0%, 32% {
-        content: "data analyst 🧮";
+        content: "Data Analyst 🧮";
     }
     33%, 65% {
-        content: "data scientist 🧠";
+        content: "Data Scientist 🧠";
     }
     66%, 100% {
         content: "consultant BI 📈";
