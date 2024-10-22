@@ -260,6 +260,123 @@ span{
     font-size: 2em;
     color: #00a99d;
 }
+
+
+
+
+
+
+.back-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent; 
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.back-button img {
+    width: 50px; 
+    height: 50px;
+}
+.resume {
+    display: flex;
+    justify-content: center; 
+    padding: 20px;
+}
+.main-div {
+    width: 96%;
+    box-sizing: border-box;
+}
+.title-div {
+    font-weight: bold;
+    font-size: 5rem;
+    margin-top: 1em;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #00a99d; 
+}
+.text-div {
+    font-size: 2em;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.images-div {
+    display: flex;
+    gap: 10px;
+    width: 100%; 
+}
+.images-div img {
+    max-width: 100%;
+    height: auto;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    width: 50%; 
+    max-width: 100%; 
+    margin: 0 auto;
+    margin-top: 3em;
+}
+.mySlides {
+    display: none;
+}
+.cursor {
+    cursor: pointer;
+}
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #f4d03f;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+.caption-container {
+    text-align: center;
+    padding: 2px 16px;
+    margin-bottom: 0.5em;
+    color: #00a99d;
+    font-size: 3em;;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: 16.66%;
+}
+.demo {
+    opacity: 0.4;
+}
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+
+
+
+
 @media screen and (max-width: 768px) {
     .section-preview {
         flex-direction: column;
@@ -281,126 +398,32 @@ span{
         font-size: 1.5em; 
         text-align: justify;
     }
+    .title-div {
+        font-weight: bold;
+        font-size: 2.5rem;
+        margin-top: 1em;
+        margin-bottom: 1rem;
+        font-weight: 700;
+        color: #00a99d; 
+    }
+    .text-div {
+        font-size: 1.5em;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+    .container {
+        position: relative;
+        width: 98%; 
+        max-width: 100%; 
+        margin: 0 auto;
+        margin-top: 3em;
+    }
+    .caption-container {
+        text-align: center;
+        padding: 2px 16px;
+        margin-bottom: 0.5em;
+        color: #00a99d;
+        font-size: 1.8em;;
+    }
 }
 
-
-
-
-
-
-.back-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent; 
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-}
-
-.back-button img {
-    width: 50px; 
-    height: 50px;
-}
-
-
-
-
-.resume {
-    display: flex;
-    justify-content: center; 
-    padding: 20px;
-}
-.main-div {
-    width: 98%;
-    border: 2px solid red;
-    padding: 20px;
-    box-sizing: border-box;
-}
-.title-div {
-    font-weight: bold;
-    font-size: 5rem;
-    margin-top: 1em;
-    margin-bottom: 1rem;
-    font-weight: 700;
-    color: #00a99d; 
-}
-.text-div {
-    font-size: 2em;
-    text-align: justify;
-    margin-bottom: 20px;
-
-}
-.images-div {
-    display: flex;
-    gap: 10px;
-}
-.images-div img {
-    max-width: 100px;
-    height: auto;
-    border: 1px solid #ccc;
-}
-* {
-    box-sizing: border-box;
-  }
-  .container {
-    position: relative;
-  }
-  .mySlides {
-    display: none;
-  }
-  .cursor {
-    cursor: pointer;
-  }
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  .caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-  }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .column {
-    float: left;
-    width: 16.66%;
-  }
-  .demo {
-    opacity: 0.6;
-  }
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
