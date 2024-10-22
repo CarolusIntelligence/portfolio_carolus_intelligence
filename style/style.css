@@ -74,7 +74,7 @@ span{
     font-weight: 700;
 }
 .home-content p{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .home-img{
     border-radius: 50%;
@@ -400,7 +400,7 @@ span{
         font-size: 2.5em; 
     }
     .section-preview p {
-        font-size: 1.8em; 
+        font-size: 1.5em; 
         text-align: justify;
     }
     .title-div {
