@@ -64,7 +64,7 @@ span {
     color: #00a99d;
 }
 #pitch {
-    font-size: 3em;
+    font-size: 3.2em;
     color: #00a99d;
 }
 .home-content h3 {
@@ -73,7 +73,7 @@ span {
     font-weight: 700;
 }
 .home-content p {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
 }
 .home-img {
     border-radius: 50%;
@@ -93,7 +93,7 @@ img {
     height: auto;
 }
 .home-img img:hover {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 500;
 }
 .social-icons a {
@@ -121,7 +121,7 @@ img {
     padding: 1rem 2.8rem;
     background-color: black;
     border-radius: 4rem;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     color: #00a99d;
     letter-spacing: 0.3rem;
     font-weight: 600;
@@ -408,7 +408,7 @@ img {
         font-size: 2.5em; 
     }
     .section-preview p {
-        font-size: 1.6em; 
+        font-size: 1.8em; 
         text-align: justify;
     }
     .title-div {
