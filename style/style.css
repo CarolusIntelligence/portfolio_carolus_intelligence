@@ -245,7 +245,7 @@ img {
     cursor: pointer;
 }
 .section-preview-content {
-    max-width: 60%;
+    max-width: 80%;
 }
 .section-preview img {
     max-width: 10%;
@@ -257,12 +257,12 @@ img {
 }
 .section-preview-title h2 {
     margin: 0;
-    font-size: 4em;
+    font-size: 5em;
     color: #8c52ff;
 }
 .section-preview p {
     margin: 10px 0;
-    font-size: 2em;
+    font-size: 4em;
     color: #00a99d;
 }
 
@@ -405,10 +405,10 @@ img {
         text-align: center;
     }
     .section-preview-title h2 {
-        font-size: 2.5em; 
+        font-size: 4em; 
     }
     .section-preview p {
-        font-size: 1.8em; 
+        font-size: 2.5em; 
         text-align: justify;
     }
     .title-div {
