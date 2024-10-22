@@ -437,5 +437,18 @@ img {
         color: #00a99d;
         font-size: 1.8em;;
     }
+    .logo {
+        display: none;
+    }
+    .back-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent; 
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        margin-left: auto; 
+    }
 }
 
