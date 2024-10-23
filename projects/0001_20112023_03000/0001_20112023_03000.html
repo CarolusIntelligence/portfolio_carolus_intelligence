@@ -19,7 +19,7 @@
     <section class="resume">
         <div class="main-div">
             <div class="title-div">Green IA</div>
-            <p class="techno-div">PyTorch · Tensorflow · Deep Learning · StreamLit · CSV</p>
+            <p class="techno-div">PyTorch · Tensorflow · Deep Learning · StreamLit · CSV · JSONL · Numpy · Pandas · Transformers</p>
             <div class="text-div">
                 <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Lorem <span class="en_avant">tincidunt finibus pharetra</span>, sem mattis imperdiet lectus. Pharetra vel semper enim finibus hac nascetur eros ipsum. Metus donec aliquam vehicula cursus inceptos suspendisse venenatis magnis inceptos. Purus fermentum ad feugiat, rutrum velit pharetra senectus. Eleifend ipsum vestibulum natoque lacinia ultrices vitae. Laoreet venenatis eros curabitur sit potenti himenaeos. Ut tempor morbi nunc morbi ut odio potenti. Lectus erat ipsum penatibus laoreet aliquet enim habitant.</p>
                 <br>
@@ -30,37 +30,50 @@
             <div class="images-div">
                 <div class="container">
                     <div class="mySlides">
-                    <div class="numbertext"></div>
-                        <img src="logo.png" style="width:100%">
+                        <div class="numbertext"></div>
+                        <img src="img/Diapositive1.png" style="width:100%" onclick="openFullscreen(this)">
                     </div>
                 
                     <div class="mySlides">
-                    <div class="numbertext"></div>
-                        <img src="logo2.png" style="width:100%">
+                        <div class="numbertext"></div>
+                        <img src="img/Diapositive2.png" style="width:100%" onclick="openFullscreen(this)">
                     </div>
+
                     <div class="mySlides">
-                    <div class="numbertext"></div>
-                        <img src="logo_ci_final.png" style="width:100%">
+                        <div class="numbertext"></div>
+                        <img src="img/Diapositive3.png" style="width:100%" onclick="openFullscreen(this)">
                     </div>
+
                     <div class="caption-container">
-                    <p id="caption"></p>
+                        <p id="caption"></p>
                     </div>
                 
                     <div class="row">
-                    <div class="column">
-                        <img class="demo cursor" src="logo.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-                    </div>
-                    <div class="column">
-                        <img class="demo cursor" src="logo2.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-                    </div>
-                    <div class="column">
-                        <img class="demo cursor" src="logo_ci_final.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-                    </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/Diapositive1.png" style="width:100%" onclick="currentSlide(1)" alt="Création du modèle">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/Diapositive2.png" style="width:100%" onclick="currentSlide(2)" alt="Résultats du meilleur modèle">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/Diapositive3.png" style="width:100%" onclick="currentSlide(3)" alt="Importation des images">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>    
     <script src="../../scripts/photos.js"></script>
+    <script>
+        function openFullscreen(img) {
+            if (img.requestFullscreen) {
+                img.requestFullscreen();
+            } else if (img.webkitRequestFullscreen) { // Safari
+                img.webkitRequestFullscreen();
+            } else if (img.msRequestFullscreen) { // IE11
+                img.msRequestFullscreen();
+            }
+        }
+    </script>
 </body>
 </html>
