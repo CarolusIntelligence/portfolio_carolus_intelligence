@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <a href="../../index.html" class="logo_article">Carolus Intelligence</a>
+        <a href="../../en_index.html" class="logo_article">Carolus Intelligence</a>
         <a href="javascript:history.back()" class="back-button">
             <img src="../../img/icons8-retour-100.png" alt="Retour" />
         </a>
@@ -21,11 +21,11 @@
             <div class="title-div">Green IA</div>
             <p class="techno-div">PyTorch · Tensorflow · Deep Learning · StreamLit · CSV · JSONL · Numpy · Pandas · Transformers</p>
             <div class="text-div">
-                <p>Nous avons imaginé Green IA avec deux amis, dans <span class="en_avant">l'objectif d'accompagner les consommateurs dans leur choix de produits alimentaires</span>🌱. Vous le savez peut-être déjà, mais en complément du Nutri-Score a été créé un Éco-score, encore expérimental à ce jour, mais qui progressivement sera ajouté aux emballages de nos produits alimentaires 🛒. Tout comme le Nutri-score, l'Éco-score attribue une note à un produit allant de A (très bon) à E (très mauvais), en fonction de son impact sur l'environnement 🌍 : destruction de la couche d'ozone, impact sur la biodiversité, consommation d'eau, etc. 💧</p><br>
-                <p>Notre objectif a donc été de fournir aux utilisateurs une prédiction de cette note pour tous les produits de la base de données OpenFoodFacts, qui est une base de données libre d'accès, notamment utilisée par l'application Yuka 📱.</p><br>
-                <p>Nous avons ainsi développé une <span class="en_avant">application web</span> disponible sur ordinateurs et mobiles 💻📱, permettant de scanner le code-barres d'un article, puis d'afficher le résultat de la prédiction 🔍.</p><br>
-                <p>Ces <span class="en_avant">prédictions sont réalisées par un modèle hybride fait maison</span>, comprenant deux perceptrons multicouches : un pour les données numériques, et un autre pour traiter les sorties du premier perceptron ainsi que du modèle <span class="en_avant">Transformers Bert</span> qui traite nos données textuelles 📊📚. En sortie, nous obtenons la note de l'article, qui est <span class="en_avant">juste dans 94% des cas ✅</span>. Dans les 6% restants, l'erreur est toujours d'une catégorie inférieure, par exemple, nous avons prévu un B au lieu d'un A 🅱️➡️🅰️.</p><br>
-                <p>Ce modèle est inclus dans une <span class="en_avant">pipeline automatique</span> qui télécharge toutes les semaines les données de la base, les traite, puis entraîne notre modèle 🔄. Si ce modèle offre de meilleures performances que le précédent, il le remplace pour réaliser de nouvelles prédictions sur l'ensemble des nouvelles données 📈.</p><br>
+                <p>We envisioned Green IA with two friends, with the <span class="en_avant">goal of helping consumers make informed choices about food products</span>🌱. You may already know this, but in addition to the Nutri-Score, an Eco-Score has been created, which is still experimental today but will gradually be added to the packaging of our food products 🛒. Like the Nutri-Score, the Eco-Score assigns a rating to a product ranging from A (very good) to E (very bad), based on its environmental impact 🌍: ozone layer depletion, impact on biodiversity, water consumption, etc. 💧</p><br>
+                <p>Our goal has therefore been to provide users with a prediction of this rating for all products in the OpenFoodFacts database, which is an open-access database, notably used by the Yuka app 📱.</p><br>
+                <p>We have thus developed a <span class="en_avant">web application</span> available on both computers and mobile devices 💻📱, allowing users to scan an item's barcode and then display the prediction result 🔍.</p><br>
+                <p>These <span class="en_avant">predictions are made by a custom-built hybrid model</span>, consisting of two multilayer perceptrons: one for numerical data, and another to process the outputs of the first perceptron along with the <span class="en_avant">Transformers Bert model</span> that handles our textual data 📊📚. In the output, we get the item's rating, which is <span class="en_avant">accurate in 94% of cases ✅</span>. In the remaining 6%, the error is always within one category, for example, we predicted a B instead of an A 🅱️➡️🅰️.</p><br>
+                <p>This model is included in an <span class="en_avant">automatic pipeline</span> that downloads data from the database every week, processes it, and then trains our model 🔄. If this model offers better performance than the previous one, it replaces it to make new predictions on all the new data 📈.</p><br>
             </div>
             <div class="images-div">
                 <div class="container">
@@ -66,22 +66,22 @@
                 
                     <div class="row">
                         <div class="column">
-                            <img class="demo cursor" src="img/Diapositive4.png" style="width:100%" onclick="currentSlide(1)" alt="Application scanne et écoscore">
+                            <img class="demo cursor" src="img/Diapositive4.png" style="width:100%" onclick="currentSlide(1)" alt="Scanner application and ecoscore">
                         </div>
                         <div class="column">
-                            <img class="demo cursor" src="img/Diapositive5.png" style="width:100%" onclick="currentSlide(2)" alt="Application informations heures, jours de collecte et type de déchets">
+                            <img class="demo cursor" src="img/Diapositive5.png" style="width:100%" onclick="currentSlide(2)" alt="Application with hours, days and type of trash collect">
                         </div>
                         <div class="column">
-                            <img class="demo cursor" src="img/Diapositive6.png" style="width:100%" onclick="currentSlide(3)" alt="Application lieux de collecte des déchets">
+                            <img class="demo cursor" src="img/Diapositive6.png" style="width:100%" onclick="currentSlide(3)" alt="Application with trash collect places">
                         </div>
                         <div class="column">
-                            <img class="demo cursor" src="img/Diapositive1.png" style="width:100%" onclick="currentSlide(4)" alt="Extrait dashboard, pays avec le moins de bons écoscore">
+                            <img class="demo cursor" src="img/Diapositive1.png" style="width:100%" onclick="currentSlide(4)" alt="Dashboard, countries with the less good ecoscore">
                         </div>
                         <div class="column">
-                            <img class="demo cursor" src="img/Diapositive2.png" style="width:100%" onclick="currentSlide(5)" alt="Représentation globale des services">
+                            <img class="demo cursor" src="img/Diapositive2.png" style="width:100%" onclick="currentSlide(5)" alt="General services chart">
                         </div>
                         <div class="column">
-                            <img class="demo cursor" src="img/Diapositive3.png" style="width:100%" onclick="currentSlide(6)" alt="Représentation de la pipeline automatique">
+                            <img class="demo cursor" src="img/Diapositive3.png" style="width:100%" onclick="currentSlide(6)" alt="Automatic pipeline chart">
                         </div>
                     </div>
                 </div>
