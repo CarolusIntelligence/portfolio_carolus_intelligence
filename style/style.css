@@ -42,6 +42,25 @@ header {
 .logo:hover {
     transform: scale(1.1);
 }
+.lang-container {
+    display: flex;
+    gap: 10px;
+}
+.lang-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.5s ease; 
+}
+.lang-button:hover .lang-icon {
+    transform: scale(1.1); 
+}
+.lang-icon {
+    width: 40px;
+    height: 40px;
+    transition: 0.2s ease; 
+}
 section {
     min-height: 100vh;
     padding: 1rem 5vw; 
