@@ -375,10 +375,14 @@ img {
 .en_avant {
     color: #00a99d;
 }
+.ident {
+    margin-left: 30px;
+    color: inherit;
+}
 .techno-div {
     font-size: 2.5rem;
     margin-top: 1em;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     font-weight: 700;
     color: #f4d03f; 
 }
