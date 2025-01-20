@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../../style/style.css">
+    <title>Carolus Intelligence</title>
+    <link rel="icon" href="../../img/logo_ci_final.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body> 
+    <header>
+        <a href="../../index.html" class="logo">Carolus Intelligence</a>
+        <div class="lang-container">
+            <a href="0003_0004_16012025.html">
+                <button type="button" class="lang-button">
+                    <img src="../../img/icons8-france-circulaire-96.png" alt="FR" class="lang-icon">
+                </button>
+            </a>
+            <a href="en_0004_16012025.html">
+                <button type="button" class="lang-button">
+                    <img src="../../img/icons8-anglais-96.png" alt="EN" class="lang-icon">
+                </button>
+            </a>
+        </div>
+    </header> 
+
+    <section class="resume">
+        <div class="main-div">
+            <div class="title-div">CNRS Bactérie Lactique Analyse</div>
+            <p class="techno-div">Random Forest Classifier · Matplotlib · Chi2 · ScikitLearn</p>
+            <div class="text-div">
+                <p>🎯 L'objectif de ce projet était d'identifier le ou les responsables des échecs répétés observés durant certaines périodes d'expériences menées par une doctorante du CNRS.</p><br>
+                <p>📊 L'analyse statistique, combinée à mes échanges avec des organismes externes, comme la Société des Eaux de Marseille, qui fournissait l'eau utilisée dans ces expériences, m'a permis d'écarter un grand nombre de paramètres. ✅ Cela a réduit le champ des hypothèses à deux variables majeures ayant un impact significatif sur le déroulement des expériences.</p><br>
+                <p>🛠️ Ce projet extrêmement complexe a nécessité l'utilisation d'<span class="en_avant">outils d'intelligence artificielle, de statistiques, 80 heures de travail et la rédaction d'un rapport de 90 pages.</span></p><br>
+                <p>✨ Les résultats sont là ! <span class="en_avant">Cette doctorante peut désormais poursuivre ses recherches en toute sérénité 💡</span>, en évitant de perdre un temps précieux dans des expériences vouées à l'échec. 🚀</p><br>
+            </div>
+            <div class="images-div">
+                <div class="container">
+                    <div class="mySlides">
+                        <div class="numbertext"></div>
+                        <img src="img/00.png" style="width:100%" onclick="openFullscreen(this)">
+                    </div>
+                
+                    <div class="mySlides">
+                        <div class="numbertext"></div>
+                        <img src="img/01.png" style="width:100%" onclick="openFullscreen(this)">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext"></div>
+                        <img src="img/02.png" style="width:100%" onclick="openFullscreen(this)">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext"></div>
+                        <img src="img/03.png" style="width:100%" onclick="openFullscreen(this)">
+                    </div>
+                    
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="img/00.png" style="width:100%" onclick="currentSlide(1)" alt="Anonymized Analysis">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/01.png" style="width:100%" onclick="currentSlide(2)" alt="Anonymized Analysis">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/02.png" style="width:100%" onclick="currentSlide(3)" alt="Anonymized Analysis">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/03.png" style="width:100%" onclick="currentSlide(4)" alt="Anonymized Analysis">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <script src="../../scripts/photos.js"></script>
+    <script>
+        function openFullscreen(img) {
+            if (img.requestFullscreen) {
+                img.requestFullscreen();
+            } else if (img.webkitRequestFullscreen) { // Safari
+                img.webkitRequestFullscreen();
+            } else if (img.msRequestFullscreen) { // IE11
+                img.msRequestFullscreen();
+            }
+        }
+    </script>
+</body>
+</html>

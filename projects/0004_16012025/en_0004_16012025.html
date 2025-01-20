@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../../style/style.css">
+    <title>Carolus Intelligence</title>
+    <link rel="icon" href="../../img/logo_ci_final.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+    <header>
+        <a href="../../en_index.html" class="logo">Carolus Intelligence</a>
+        <div class="lang-container">
+            <a href="0004_16012025.html">
+                <button type="button" class="lang-button">
+                    <img src="../../img/icons8-france-circulaire-96.png" alt="FR" class="lang-icon">
+                </button>
+            </a>
+            <a href="en_0004_16012025.html">
+                <button type="button" class="lang-button">
+                    <img src="../../img/icons8-anglais-96.png" alt="EN" class="lang-icon">
+                </button>
+            </a>
+        </div>
+    </header> 
+
+    <section class="resume">
+        <div class="main-div">
+            <div class="title-div">CNRS Cheese Bacteria Analysis</div>
+            <p class="techno-div">Random Forest Classifier · Matplotlib · Chi2 · ScikitLearn</p>
+            <div class="text-div">
+                <p>🎯 The goal of this project was to identify the cause(s) behind repeated failures during specific periods of experiments conducted by a CNRS doctoral researcher.</p><br>
+                <p>📊 Statistical analysis, combined with discussions with external organizations, such as the Société des Eaux de Marseille, which supplied the water used in these experiments, allowed me to rule out a significant number of factors. ✅ This narrowed the possibilities down to two key variables playing a major role in the experiments' outcomes.</p><br>
+                <p>🛠️ This highly complex project required the <span class="en_avant">use of artificial intelligence tools, statistical methods, 80 hours of work, and a 90-page report.</span></p><br>
+                <p>✨ The results speak for themselves! <span class="en_avant">The doctoral researcher can now continue her experiments with confidence 💡</span>, avoiding wasted time on trials destined to fail. 🚀</p><br>
+            </div>
+            <div class="images-div">
+                <div class="container">
+                    <div class="mySlides">
+                        <div class="numbertext"></div>
+                        <img src="img/00.png" style="width:100%" onclick="openFullscreen(this)">
+                    </div>
+                
+                    <div class="mySlides">
+                        <div class="numbertext"></div>
+                        <img src="img/01.png" style="width:100%" onclick="openFullscreen(this)">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext"></div>
+                        <img src="img/02.png" style="width:100%" onclick="openFullscreen(this)">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext"></div>
+                        <img src="img/03.png" style="width:100%" onclick="openFullscreen(this)">
+                    </div>
+                    
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="img/00.png" style="width:100%" onclick="currentSlide(1)" alt="Anonymized Analysis">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/01.png" style="width:100%" onclick="currentSlide(2)" alt="Anonymized Analysis">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/02.png" style="width:100%" onclick="currentSlide(3)" alt="Anonymized Analysis">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/03.png" style="width:100%" onclick="currentSlide(4)" alt="Anonymized Analysis">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <script src="../../scripts/photos.js"></script>
+    <script>
+        function openFullscreen(img) {
+            if (img.requestFullscreen) {
+                img.requestFullscreen();
+            } else if (img.webkitRequestFullscreen) { // Safari
+                img.webkitRequestFullscreen();
+            } else if (img.msRequestFullscreen) { // IE11
+                img.msRequestFullscreen();
+            }
+        }
+    </script>
+</body>
+</html>
