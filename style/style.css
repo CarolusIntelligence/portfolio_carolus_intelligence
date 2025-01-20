@@ -83,7 +83,7 @@ span {
     color: #1BAFE6;
 }
 .home-content h3 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
     font-weight: 700;
 }
@@ -159,7 +159,7 @@ img {
     position: relative;
 }
 .typing-text span::before {
-    content: "Data Scientist & Analyst";
+    content: "Data Analyst & Business Advisor";
     color: #DC3F00;
     animation: words 10s infinite;
 }
@@ -180,13 +180,13 @@ img {
 }
 @keyframes words {
     0%, 32% {
-        content: "data analyst🧮";
+        content: "Data Analyst 🧮";
     }
     33%, 65% {
-        content: "data scientist🧠";
+        content: "Data Scientist 🧠";
     }
     66%, 100% {
-        content: "business advisor📈";
+        content: "Business Advisor 📈";
     }
 }
 @media (max-width: 1000px) {
