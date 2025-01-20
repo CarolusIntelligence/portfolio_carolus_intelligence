@@ -180,13 +180,13 @@ img {
 }
 @keyframes words {
     0%, 32% {
-        content: "Data Analyst 🧮";
+        content: "data analyst🧮";
     }
     33%, 65% {
-        content: "Data Scientist 🧠";
+        content: "data scientist🧠";
     }
     66%, 100% {
-        content: "Business Advisor 📈";
+        content: "business advisor📈";
     }
 }
 @media (max-width: 1000px) {
