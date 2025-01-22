@@ -80,7 +80,7 @@ section {
     line-height: 1.3;
 }
 span {
-    color: #1BAFE6;
+    color: #58927E;
 }
 .home-content h3 {
     font-size: 3rem;
@@ -98,7 +98,7 @@ span {
     width: 32vw;
     height: auto; 
     border-radius: 50%;
-    box-shadow: 0 0 25px solid #1BAFE6;
+    box-shadow: 0 0 25px solid #58927E;
     cursor: pointer;
     transition: 0.2s linear;
     max-width: 32vh;
@@ -118,18 +118,18 @@ img {
     width: 4rem;
     height: 4rem;
     background-color: transparent;
-    border: 0.2rem solid #1BAFE6;
+    border: 0.2rem solid #58927E;
     font-size: 2rem;
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease;
-    color: #1BAFE6;
+    color: #58927E;
 }
 .social-icons a:hover {
     color: black;
     transform: scale(1.3) translateY(-5px);
-    background-color: #1BAFE6;
-    box-shadow: 0 0 25px #1BAFE6;
+    background-color: #58927E;
+    box-shadow: 0 0 25px #58927E;
 }
 .btn {
     display: inline-block;
@@ -137,18 +137,18 @@ img {
     background-color: black;
     border-radius: 4rem;
     font-size: 2rem;
-    color: #1BAFE6;
+    color: #58927E;
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid #1BAFE6;
+    border: 2px solid #58927E;
     transition: 0.3s ease;
     cursor: pointer;
 }
 .btn:hover {
     transform: scale3d(1.03);
-    background-color: #1BAFE6;
+    background-color: #58927E;
     color: black;
-    box-shadow: 0 0 25px #1BAFE6;
+    box-shadow: 0 0 25px #58927E;
 }
 .typing-text {
     font-size: 34px;
@@ -267,7 +267,7 @@ img {
 .section-preview p {
     margin: 10px 0;
     font-size: 4em;
-    color: #1BAFE6;
+    color: #58927E;
     text-align: justify;
 }
 
@@ -352,7 +352,7 @@ img {
     text-align: center;
     padding: 2px 16px;
     margin-bottom: 0.5em;
-    color: #1BAFE6;
+    color: #58927E;
     font-size: 3em;
     border-radius: 2em;
 }
@@ -392,7 +392,7 @@ img {
     transform: scale(1.1);
 }
 .en_avant {
-    color: #1BAFE6;
+    color: #58927E;
 }
 .ident {
     margin-left: 30px;
@@ -461,7 +461,7 @@ img {
         text-align: center;
         padding: 2px 16px;
         margin-bottom: 0.5em;
-        color: #1BAFE6;
+        color: #58927E;
         font-size: 3em;;
     }
     .logo_article {
