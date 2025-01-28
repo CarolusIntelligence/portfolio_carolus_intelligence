@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../../style/style.css">
+    <title>Carolus Intelligence</title>
+    <link rel="icon" href="../../img/logo_ci_final.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+    <header>
+        <a href="../../index.html" class="logo">Carolus Intelligence</a>
+        <div class="lang-container">
+            <a href="0002_1_27092024_01001.html">
+                <button type="button" class="lang-button">
+                    <img src="../../img/icons8-france-circulaire-96.png" alt="FR" class="lang-icon">
+                </button>
+            </a>
+            <a href="en_0002_1_27092024_01001.html">
+                <button type="button" class="lang-button">
+                    <img src="../../img/icons8-anglais-96.png" alt="EN" class="lang-icon">
+                </button>
+            </a>
+        </div>
+    </header> 
+
+    <section class="resume">
+        <div class="main-div">
+            <div class="title-div">Logiciels C++ de gestion des données</div>
+            <p class="techno-div">C++ · CMake · Bash · Linux · Qt5 · WireShark</p>
+            <div class="text-div">
+                💻 Développement d'une suite de solutions comprenant :</br>
+                🔹 Un script permettant d’écouter et de conserver en continu les données provenant de plusieurs interfaces réseau simultanément.</br>
+                🔹 Un logiciel permettant d’émettre les données sauvegardées, sélectionnées par l’utilisateur.</br>
+                🔹 Un logiciel permettant de recevoir les données et de vérifier l’intégrité des fichiers reçus.</br></br>
+
+                🔄 Assurer la compatibilité du logiciel de rejeu des données de vol avec un nouveau système d’exploitation.</br></br>
+
+                📝 Rédaction de la documentation de conception pour le logiciel de rejeu des données de vol.</br>
+            </div>
+            <div class="images-div">
+                <div class="container">
+                    <div class="mySlides">
+                        <div class="numbertext"></div>
+                        <img src="img/DA00039117-1920x1080.jpg" style="width:100%" onclick="openFullscreen(this)">
+                    </div>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="img/DA00039117-1920x1080.jpg" style="width:100%" onclick="currentSlide(1)" alt="Falcon and Rafale">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <script src="../../scripts/photos.js"></script>
+    <script>
+        function openFullscreen(img) {
+            if (img.requestFullscreen) {
+                img.requestFullscreen();
+            } else if (img.webkitRequestFullscreen) { // Safari
+                img.webkitRequestFullscreen();
+            } else if (img.msRequestFullscreen) { // IE11
+                img.msRequestFullscreen();
+            }
+        }
+    </script>
+</body>
+</html>

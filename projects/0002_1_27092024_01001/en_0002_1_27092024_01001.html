@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../../style/style.css">
+    <title>Carolus Intelligence</title>
+    <link rel="icon" href="../../img/logo_ci_final.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+    <header>
+        <a href="../../en_index.html" class="logo">Carolus Intelligence</a>
+        <div class="lang-container">
+            <a href="0002_1_27092024_01001.html">
+                <button type="button" class="lang-button">
+                    <img src="../../img/icons8-france-circulaire-96.png" alt="FR" class="lang-icon">
+                </button>
+            </a>
+            <a href="en_0002_1_27092024_01001.html">
+                <button type="button" class="lang-button">
+                    <img src="../../img/icons8-anglais-96.png" alt="EN" class="lang-icon">
+                </button>
+            </a>
+        </div>
+    </header> 
+
+    <section class="resume">
+        <div class="main-div">
+            <div class="title-div">C++ software of data management</div>
+            <p class="techno-div">C++ · CMake · Bash · Linux · Qt5 · WireShark</p>
+            <div class="text-div">
+                💻 Development of a suite of solutions including:</br>
+                🔹 A script to continuously monitor and store data from multiple network interfaces simultaneously.</br>
+                🔹 Software to transmit saved data selected by the user.</br>
+                🔹 Software to receive data and verify the integrity of the received files.</br></br>
+            
+                🔄 Ensuring compatibility of the flight data replay software with a new operating system.</br></br>
+            
+                📝 Drafting the design documentation for the flight data replay software.</br>
+            </div>
+            
+            <div class="images-div">
+                <div class="container">
+                    <div class="mySlides">
+                        <div class="numbertext"></div>
+                        <img src="img/DA00039117-1920x1080.jpg" style="width:100%" onclick="openFullscreen(this)">
+                    </div>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="img/DA00039117-1920x1080.jpg" style="width:100%" onclick="currentSlide(1)" alt="Falcon and Rafale">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <script src="../../scripts/photos.js"></script>
+    <script>
+        function openFullscreen(img) {
+            if (img.requestFullscreen) {
+                img.requestFullscreen();
+            } else if (img.webkitRequestFullscreen) { // Safari
+                img.webkitRequestFullscreen();
+            } else if (img.msRequestFullscreen) { // IE11
+                img.msRequestFullscreen();
+            }
+        }
+    </script>
+</body>
+</html>
