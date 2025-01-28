@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../../style/style.css">
+    <title>Carolus Intelligence</title>
+    <link rel="icon" href="../../img/logo_ci_final.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body> 
+    <header>
+        <a href="../../index.html" class="logo">Carolus Intelligence</a>
+        <div class="lang-container">
+            <a href="20250120.html">
+                <button type="button" class="lang-button">
+                    <img src="../../img/icons8-france-circulaire-96.png" alt="FR" class="lang-icon">
+                </button>
+            </a>
+            <a href="en_20250120.html">
+                <button type="button" class="lang-button">
+                    <img src="../../img/icons8-anglais-96.png" alt="EN" class="lang-icon">
+                </button>
+            </a>
+        </div>
+    </header> 
+
+    <section class="resume">
+        <div class="main-div">
+            <div class="title-div">Consommation d'alcool dans le monde</div>
+            <p class="techno-div">PowerBI · PowerQuery · Kaggle</p>
+            <div class="text-div">
+                📊 Pendant les vacances, j'ai créé, sur un coin de table, un dashboard <span class="en_avant">Power BI à partir d'un dataset disponible sur Kaggle</span>. Celui-ci contient des données sur la consommation des populations, classées par genre, pays et date.</br></br>
+                📁 Le dataset, assez petit et simple, ne permettait pas de réaliser des analyses très poussées. Cependant, j'ai enrichi les données en faisant du scraping pour y ajouter un nouveau paramètre : le nombre d'habitants de chaque pays présent dans le dataset. Cela m'a permis de créer une carte mondiale 🌍 affichant les pays les plus consommateurs d'alcool de manière proportionnelle à leur population.</br></br>
+                
+                <span class="en_avant">✅ Au final, ce dashboard permet :</br></span>
+                1️⃣ De rechercher un pays grâce à une barre de recherche pour afficher la consommation d'alcool par jour en fonction du genre.🔍</br>
+                2️⃣ D'explorer les données en cliquant sur un pays depuis le tableau ou directement sur la carte du monde.🌟</br>
+            </div>
+            <div class="images-div">
+                <div class="container">
+                    <div class="mySlides">
+                        <div class="numbertext"></div>
+                        <img src="img/1.png" style="width:100%" onclick="openFullscreen(this)">
+                    </div>
+                
+                    <div class="mySlides">
+                        <div class="numbertext"></div>
+                        <img src="img/2.png" style="width:100%" onclick="openFullscreen(this)">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext"></div>
+                        <img src="img/3.png" style="width:100%" onclick="openFullscreen(this)">
+                    </div>
+                    
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="img/1.png" style="width:100%" onclick="currentSlide(1)" alt="powerbi dashboard">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/2.png" style="width:100%" onclick="currentSlide(2)" alt="powerbi dashboard">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/3.png" style="width:100%" onclick="currentSlide(3)" alt="powerbi dashboard">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <script src="../../scripts/photos.js"></script>
+    <script>
+        function openFullscreen(img) {
+            if (img.requestFullscreen) {
+                img.requestFullscreen();
+            } else if (img.webkitRequestFullscreen) { // Safari
+                img.webkitRequestFullscreen();
+            } else if (img.msRequestFullscreen) { // IE11
+                img.msRequestFullscreen();
+            }
+        }
+    </script>
+</body>
+</html>
