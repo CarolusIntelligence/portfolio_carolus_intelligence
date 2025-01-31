@@ -161,7 +161,7 @@ img {
 .typing-text span::before {
     content: "Data Analyst & Business Advisor";
     color: #DC3F00;
-    animation: words 10s infinite;
+    animation: words 5s infinite;
 }
 .typing-text span::after {
     content: "";
@@ -179,14 +179,11 @@ img {
     }
 }
 @keyframes words {
-    0%, 32% {
+    0%, 49% {
         content: "Data Analyst 🧮";
     }
-    33%, 65% {
-        content: "Data Scientist 🧠";
-    }
-    66%, 100% {
-        content: "Business Advisor 📈";
+    50%, 100% {
+        content: "Business Analyst 📈";
     }
 }
 @media (max-width: 1000px) {
