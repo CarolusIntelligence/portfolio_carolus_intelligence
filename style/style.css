@@ -244,6 +244,15 @@ img {
     }
 }
 
+.responsive-text {
+    display: block;
+}
+@media (max-width: 600px) {
+    .responsive-text {
+        display: none;
+    }
+}
+
 
 .section-preview {
     display: flex;
