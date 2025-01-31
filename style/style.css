@@ -222,12 +222,27 @@ img {
 }
 
 
-
-
-
-
-
-
+.packages-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 100%; 
+    max-width: 100%; 
+    margin: auto;
+}
+.package {
+    padding: 20px;
+    border: 2px solid #58927E;
+    border-radius: 15px;
+    background-color: black;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 20000px) {
+    .packages-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
 
 
 .section-preview {
