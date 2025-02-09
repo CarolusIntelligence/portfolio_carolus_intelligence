@@ -159,7 +159,7 @@ img {
     position: relative;
 }
 .typing-text span::before {
-    content: "Data Analyst & Business Advisor";
+    content: "Data Analyst & Business Intelligence";
     color: #DC3F00;
     animation: words 5s infinite;
 }
